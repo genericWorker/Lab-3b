@@ -19,5 +19,5 @@ do {
 while (entry != 999);
   
 var average = total / entryCount;
-average = parseInt(average);
+average = parseFloat(average).toFixed(1);
 alert("Average score is: " + average);
